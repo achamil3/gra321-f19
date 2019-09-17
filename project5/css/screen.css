@@ -1,0 +1,21 @@
+/* Styles for Project 5 */
+
+body{
+    letter-spacing: 1x;
+    line-height: 1.5;
+    padding: 10%;
+font-family: titling-gothic-fb, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+h1 {
+    color: cadetblue;
+}
+h2 {
+    color: rebeccapurple;
+}
+
+img {
+    max-width: 100%;
+}

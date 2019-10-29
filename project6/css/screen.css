@@ -1,0 +1,146 @@
+/* Styles for Project 5 */
+
+body{
+    letter-spacing: 1x;
+    line-height: 1.5;
+    padding: 10%;
+font-family: quicksand, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+body {
+  background-color: lightgrey;
+}
+
+h1 {
+    color: white;
+}
+h2{
+    color: dimgrey
+}
+h3{
+    color: dimgrey
+  
+}
+h4{
+            color: dimgray;
+    }
+h6 {
+    color: white;
+    font-size: 12pt;
+}
+
+
+.container {
+  position: relative;
+}
+
+.header {
+  background-image: url('https://www.incimages.com/uploaded_files/image/970x450/getty_938993594_401542.jpg');
+  background-size: cover;
+  padding: 5rem;
+    margin: 0;
+}
+.column {
+  color: #fff;
+  font-size: 3rem;
+}
+p {
+    color: dimgray;
+  font-size: 14pt;
+}
+
+// This makes the 2 columns display side-by-side when the screen is larger than 768px wide
+@media screen and (min-width: 768px) {
+  .inner {
+    display: flex;
+  }
+  .column {
+    width: 50%;
+
+  }
+}
+.menu li {
+    color: dimgrey;
+    display: inline;
+    padding: 10px;
+    position: relative;
+  bottom: 10px;
+  left: -50px;   
+}
+.add li {
+    color: dimgrey;
+    display: inline;
+    padding: 10px;
+    position: relative;
+  bottom: 10px;
+  left: -50px;   
+}
+.addin li {
+    color: dimgrey;
+    position: relative;
+    bottom: 20px
+}
+.contact {
+    color: darkgrey;
+    border: 2px;
+    border-color: black;
+}
+
+.coffee li {
+    color: dimgrey;
+    display: inline;
+    padding: 10px;
+    position: relative;
+    line-height: 1pt;
+  bottom: 10px;
+  left: -50px;   
+}
+.flavors li {
+    color: dimgrey;
+    padding: 10px;
+    position: relative;
+  bottom: 20px;
+  right; 20px;
+    line-height: .2
+}
+
+.emergancy li {
+    color: dimgrey;
+    display: inline;
+    padding: 30px;
+    position: relative;
+  bottom: 10px;
+  left: -70px;   
+}
+
+.teas {
+    font-size:10pt;
+    color: dimgrey;
+    font-style: italic;
+    position: relative;
+    bottom: 30px;
+    left: 20px;
+}
+
+
+p {
+    font-size:10pt;
+    color: dimgrey;
+    font-style: italic;
+    position: relative;
+    right: 40px;
+    bottom: 25px
+}
+
+.price{
+     color: dimgrey;
+    font-style: normal;
+    left: 0px;
+    letter-spacing: 1x;
+    line-height: 1.5;
+
+font-family: quicksand, sans-serif;
+font-weight: 400;
+    font-style: normal;}

@@ -7,8 +7,12 @@ body{
 font-family: quicksand, sans-serif;
 font-weight: 400;
 font-style: normal;
+    
 }
 
+img {
+    max-width: 100%;
+}
 body {
   background-color: lightgrey;
 }
@@ -40,7 +44,6 @@ h6 {
   background-image: url('https://www.incimages.com/uploaded_files/image/970x450/getty_938993594_401542.jpg');
   background-size: cover;
   padding: 5rem;
-    margin: 0;
 }
 .column {
   color: #fff;
@@ -51,23 +54,14 @@ p {
   font-size: 14pt;
 }
 
-// This makes the 2 columns display side-by-side when the screen is larger than 768px wide
-@media screen and (min-width: 768px) {
-  .inner {
-    display: flex;
-  }
-  .column {
-    width: 50%;
-
-  }
-}
 .menu li {
     color: dimgrey;
     display: inline;
     padding: 10px;
     position: relative;
   bottom: 10px;
-  left: -50px;   
+  left: -50px; 
+
 }
 .add li {
     color: dimgrey;
@@ -75,7 +69,8 @@ p {
     padding: 10px;
     position: relative;
   bottom: 10px;
-  left: -50px;   
+  left: -50px; 
+
 }
 .addin li {
     color: dimgrey;
@@ -90,13 +85,15 @@ p {
 
 .coffee li {
     color: dimgrey;
-    display: inline;
     padding: 10px;
     position: relative;
     line-height: 1pt;
   bottom: 10px;
-  left: -50px;   
+  left: -50px; 
+    list-style: none;
+    
 }
+
 .flavors li {
     color: dimgrey;
     padding: 10px;
@@ -143,4 +140,29 @@ p {
 
 font-family: quicksand, sans-serif;
 font-weight: 400;
-    font-style: normal;}
+    font-style: normal;
+}
+
+@media only screen and (min-width: 600px){
+    .coffee li {
+         display: inline;
+        
+    }
+}
+
+/* This makes the 2 columns display side-by-side when the screen is larger than 768px wide */
+@media screen and (min-width: 768px) {
+  .inner {
+    display: flex;
+  }
+  .columns {
+    width: 90%;
+
+  }
+}
+@media only screen and (min-width: 800px) {
+  .containers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
